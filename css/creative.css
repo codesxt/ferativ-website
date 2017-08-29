@@ -74,6 +74,8 @@ aside {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  visibility: visible;
+  color: #1A75B3;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -110,8 +112,10 @@ aside {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
   }
+  /* Hide Navbar Brand when on top */
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 1);
+    visibility: hidden;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -129,9 +133,11 @@ aside {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
   }
+  /* Show Navbar Brand after scrolling */
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #1A75B3;
     font-size: 14px;
+    visibility: visible;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
