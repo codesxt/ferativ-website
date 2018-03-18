@@ -1,349 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Ferativ - Desarrollo Digital</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferativ 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Ferativ</a>
+<body>
+    <section id="hero" style="padding-top:29px;">
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+            <div class="container-fluid"><a class="navbar-brand text-white" href="#" style="font-family:Actor, sans-serif;">Ferativ</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Sobre Nosotros</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Servicios</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contacto</a></li>
+                    </ul>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">Sobre nosotros</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Servicios</a>
-                    </li>
-                    <!--
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Proyectos</a>
-                    </li>
-                    -->
-                    <li>
-                        <a class="page-scroll" href="#contact">Contacto</a>
-                    </li>
-                </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-              <div class="row">
-                <div class="col-sm-4 col-md-4">
-                  <img src="img/ferativ-logo.png" class="img-responsive" style="padding: 20px;"></img>
-                </div>
-                <div class="col-sm-8 col-md-8" style="padding-top: 70px;">
-                  <h1 id="homeHeading">En Ferativ, creamos tecnología y eliminamos problemas</h1>
-                </div>
-                <div class="col-md-12">
-                  <hr>
-                  <p>Desde la web de tu empresa y el diseño de tu marca, hasta software a medida, entregamos soluciones ágiles y elegantes a tus problemas.</p>
-                  <a href="#about" class="btn btn-primary btn-xl page-scroll">Descubre más</a>
-                </div>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
+        </nav>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Tenemos una solución para tu problema <br/> (Y si no la tenemos, la creamos)</h2>
-                    <hr class="light">
-                    <p>
-                      Ferativ es una empresa joven, comprometida con desarrollar soluciones de software que vayan acorde a los tiempos y que aprovechen las tecnologías modernas. Con un balance entre ingeniería y diseño gráfico, creamos productos pensados en ser disfrutados por sus usuarios de manera intuitiva.
-                    </p>
-                    <p>
-                      Los tiempos cambian rápidamente, y las necesidades de software también. Para enfrentar este ambiente tan dinámico, en Ferativ utilizamos metodologías ágiles para gestionar el desarrollo de nuestros productos, de manera que el cliente puede ver su solución crecer en distintas etapas y proponer correcciones hasta llegar al producto final.
-                    </p>
-
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">¿Comenzamos?</a>
+            <div class="row" style="margin-bottom:25px;">
+                <div class="col-sm-12 col-md-6 col-lg-5"><img src="assets/img/ferativ-logo.png" id="hero-logo" style="padding:40px;"></div>
+                <div class="col-sm-12 col-md-6 col-lg-7 d-flex flex-row align-items-center" style="padding:0px;padding-right:12px;padding-left:12px;">
+                    <h1 class="text-center" data-aos="zoom-in-left" data-aos-duration="400" data-aos-delay="100" data-aos-once="true" id="hero-slogan">En Ferativ,&nbsp;creamos tecnología&nbsp;y eliminamos problemas</h1>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column justify-content-center align-items-center align-content-center">
+                    <hr data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" class="blue-separator">
+                    <p data-aos="zoom-in" data-aos-delay="1000" data-aos-once="true" class="main-text">Desde la web de tu empresa y el diseño de tu marca, hasta software a medida, entregamos soluciones ágiles y elegantes a tus problemas.</p><button class="btn btn-primary round-button" type="button" data-aos="zoom-in-up" data-aos-duration="400"
+                        data-aos-delay="1500" data-aos-once="true" style="background-color:#007bff;">Descubre más</button></div>
             </div>
         </div>
     </section>
-
+    <section class="d-flex flex-column justify-content-center align-items-center align-content-center py-5" id="intro" style="padding:20px;background-color:rgb(0,105,217);">
+        <div class="container d-flex flex-column justify-content-center">
+            <h2 class="text-center text-white" data-aos="fade-left" data-aos-once="true">Tenemos una solución para tu problema <br> (Y si no la tenemos, la creamos)</h2>
+            <hr data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" class="separator">
+            <p data-aos="fade-left" data-aos-delay="1000" data-aos-once="true" class="company-description mx-md-5">Ferativ es una empresa joven, comprometida con desarrollar soluciones de software que vayan acorde a los tiempos y que aprovechen las tecnologías&nbsp;modernas. Con un balance entre ingeniería y diseño gráfico, creamos productos pensados en
+                ser disfrutados por sus usuarios de manera intuitiva.<br></p>
+            <p data-aos="fade-left" data-aos-delay="1500" data-aos-once="true" class="company-description mx-md-5">Los tiempos cambian rápidamente, y las necesidades de software también. Para enfrentar este ambiente tan dinámico, en Ferativ utilizamos metodologías ágiles para gestionar el desarrollo de nuestros productos, de manera que el cliente puede
+                ver su solución crecer en distintas etapas y proponer correcciones hasta llegar al producto final.<br></p><button class="btn btn-primary m-auto round-button button-white" type="button" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="2000"
+                data-aos-once="true">¿Comenzamos?</button></div>
+    </section>
     <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">¿A qué nos dedicamos?</h2>
-                    <hr class="primary">
+        <h2 class="text-center text-dark mt-5">¿A qué nos dedicamos?</h2>
+        <hr data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" class="blue-separator">
+        <div class="container mb-5">
+            <div class="row pt-3">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-start align-items-center text-center"><i class="fa fa-paint-brush fa-3x text-primary fa-fw" data-aos="flip-left" data-aos-delay="500" data-aos-once="true"></i>
+                    <h3>Diseño<br>Gráfico</h3>
+                    <p>Los detalles hacen que tus clientes se sientan importantes. Ofrecemos <br>servicios de diseño de marca, tarjetas de presentación y otros.</p>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paint-brush text-primary sr-icons"></i>
-                        <h3>Diseño Gráfico</h3>
-                        <p class="text-muted">Los detalles hacen que tus clientes se sientan importantes. Ofrecemos servicios de diseño de marca, tarjetas de presentación y otros.</p>
-                    </div>
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-start align-items-center text-center"><i class="fa fa-html5 fa-3x text-primary fa-fw" data-aos="flip-left" data-aos-delay="1000" data-aos-once="true"></i>
+                    <h3>Diseño<br>Web</h3>
+                    <p>Tus clientes necesitan encontrarte en internet. Podemos desarrollar tu página web para que te hagas notar.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-html5 text-primary sr-icons"></i>
-                        <h3>Desarrollo Web</h3>
-                        <p class="text-muted">Tus clientes necesitan encontrarte en internet. Podemos desarrollar tu página web para que te hagas notar.</p>
-                    </div>
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-start align-items-center text-center"><i class="fa fa-file-code-o fa-3x text-primary fa-fw" data-aos="flip-left" data-aos-delay="1500" data-aos-once="true"></i>
+                    <h3>Desarrollo<br>de Software</h3>
+                    <p>Desde prototipos de software hasta aplicaciones completas, para web y móviles, podemos desarrollarlas.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
-                        <h3>Desarrollo de Software</h3>
-                        <p class="text-muted">Desde prototipos de software hasta aplicaciones completas, para web y móviles, podemos desarrollarlas.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-line-chart text-primary sr-icons"></i>
-                        <h3>Metodologías Ágiles</h3>
-                        <p class="text-muted">Los nuevos tiempos requieren nuevas metodologías. Con nosotros puedes ver cómo tu proyecto evoluciona hasta convertirse en tu solución.</p>
-                    </div>
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-start align-items-center text-center"><i class="fa fa-line-chart fa-3x text-primary fa-fw" data-aos="flip-left" data-aos-delay="2000" data-aos-once="true"></i>
+                    <h3>Metodologías<br>Ágiles</h3>
+                    <p>Los nuevos tiempos requieren nuevas metodologías. Con nosotros puedes ver &nbsp;cómo tu proyecto evoluciona hasta convertirse en tu solución.<br></p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!--
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+    <section id="agile" class="bg-dark text-white">
+        <div class="container d-flex flex-column pb-5">
+            <h2 class="text-center mt-5">Desarrollo ágil para el mundo de hoy</h2>
+            <hr data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" class="separator">
+            <p class="text-center">En Ferativ, nos guiamos por las metodologías ágiles Scrum y Kanban para desarrollar proyectos en base a prototipos funcionales que van creciendo hasta convertirse en el producto final. Así, puedes aportar las correcciones necesarias durante
+                el desarrollo del proyecto y no al final.<br></p><button class="btn btn-primary m-auto round-button button-white" type="button" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="700" data-aos-once="true">¡Escríbenos!</button></div>
     </section>
-    -->
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Desarrollo ágil para el mundo de hoy</h2>
-                <p>
-                  En Ferativ, nos guiamos por las metodologías ágiles Scrum y Kanban
-                  para desarrollar proyectos en base a prototipos funcionales que van
-                  creciendo hasta convertirse en el producto final. Así, puedes aportar
-                  las correcciones necesarias durante el desarrollo del proyecto y no
-                  al final.
-                </p>
-                <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">¡Escríbenos!</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">¡Contáctanos!</h2>
-                    <hr class="primary">
-                    <p>¿Estás listo para comenzar tu próximo proyecto con nosotros? Escríbenos y nos pondremos en contacto.</p>
-                    <form class="form-horizontal" action="https://formspree.io/contacto@ferativ.com" method="post">
-                      <fieldset>
-                        <input type="hidden" name="_subject" value="¡Nuevo mensaje desde Ferativ.com!" />
-                        <input type="hidden" name="_language" value="es" />
-                        <div class="form-group">
-                          <div class="col-md-8 col-md-offset-2">
-                            <div class="input-group">
-                              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                              <input name="name" placeholder="Nombre" class="form-control" type="text" required>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- Text input-->
-                        <div class="form-group">
-                          <div class="col-md-8 col-md-offset-2">
-                            <div class="input-group">
-                              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                              <input name="_replyto" placeholder="Tu e-mail" class="form-control" type="email" required>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- Text input-->
-                        <div class="form-group">
-                          <div class="col-md-8 col-md-offset-2">
-                            <div class="input-group">
-                              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                              <input name="phone" placeholder="Teléfono (opcional)" class="form-control" type="text">
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- Text input-->
-                        <div class="form-group">
-                          <div class="col-md-8 col-md-offset-2">
-                            <div class="input-group">
-                              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                              <textarea class="form-control" name="comment" placeholder="Escríbenos un mensaje..." rows="5" required></textarea>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="form-group">
-                          <div class="col-md-8 col-md-offset-2">
-                            <button type="submit" class="btn btn-info btn-xl pull-right">Enviar <span class="glyphicon glyphicon-send"></span></button>
-                          </div>
-                        </div>
-                      </fieldset>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
