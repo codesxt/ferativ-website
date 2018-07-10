@@ -7,24 +7,35 @@
     <meta name="author" content="Ferativ SpA">
     <meta name="description" content="Empresa de Desarrollo de Software y Diseño Gráfico ubicada en la Región del Maule, en la ciudad de Talca. Trabajamos con metologías ágiles para entregar productos de calidad que coincidan con los objetivos de nuestros clientes.">
     <title>Ferativ - Desarrollo Digital</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122104812-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122104812-1');
+</script>
+
 </head>
 
 <body>
     <section id="hero" style="padding-top:29px;">
-        <nav class="navbar navbar-dark navbar-expand-md fixed-top ferativ-navbar">
-            <div class="container-fluid"><a class="navbar-brand text-white" href="#" style="font-family:Actor, sans-serif;">Ferativ</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top ferativ-navbar" style="background-color:transparent;">
+            <div class="container-fluid"><a class="navbar-brand text-white" href="#hero" style="font-family:Actor, sans-serif;">Ferativ</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="#intro">Sobre Nosotros</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#services">Servicios</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#portfolio">Portafolio</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#contact-form">Contacto</a></li>
                     </ul>
             </div>
@@ -79,6 +90,22 @@
             </div>
         </div>
     </section>
+    <section class="d-flex flex-column justify-content-center align-items-center align-content-center py-5" id="portfolio" style="padding:20px;background-color:rgb(0,105,217);">
+        <div class="container d-flex flex-column justify-content-center">
+            <h2 class="text-center text-white" data-aos="fade-left" data-aos-once="true">Nuestros Trabajos</h2>
+            <hr data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" class="separator">
+            <div class="row" style="color:rgb(255,255,255);">
+                <div class="col-4" style="margin-bottom:15px;"><img class="img-thumbnail img-fluid" src="assets/img/portfolio/condorycosas.png" style="width:100%;">
+                    <p class="text-white" style="font-weight:bold;margin-bottom:0px;">Taller Condor &amp; Cosas</p>
+                    <p style="margin-bottom:0px;">Taller artesanal tradicional ubicado en la comuna de Cumpeo</p>
+                </div>
+                <div class="col-4" style="margin-bottom:15px;"><img class="img-thumbnail img-fluid" src="assets/img/portfolio/complejolosconquistadores.png" style="width:100%;">
+                    <p class="text-white" style="font-weight:bold;margin-bottom:0px;">Complejo Turístico los Conquistadores</p>
+                    <p style="margin-bottom:0px;">Complejo turístico ubicado en Villa Alegre</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="agile" class="bg-dark text-white">
         <div class="container d-flex flex-column pb-5">
             <h2 class="text-center mt-5">Desarrollo ágil para el mundo de hoy</h2>
@@ -127,7 +154,7 @@
         </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
